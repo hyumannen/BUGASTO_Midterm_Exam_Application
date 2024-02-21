@@ -10,6 +10,10 @@ class ProductController extends Controller
 
         $AnimeData = array(
             "anime1" => "One piece",
+            "anime2" => "Bleach",
+            "anime3" => "Hitman: Reborn",
+            "anime4" => "Gintama",
+            "anime5" => "Hyakkimaru"
         );
 
         return view('Anime', ['AnimeData'=>$AnimeData]);
